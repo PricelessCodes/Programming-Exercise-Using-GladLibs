@@ -2,6 +2,7 @@
 Java Programming: Arrays, Lists, and Structured Data Duke University Course from Coursera
 
 Assignment: Verbs and Fruits
+
 Run the GladLib.java program that is provided. You should also have a data folder with several files. This program should generate a story using the file madtemplate.txt, which is also in the data folder. This program creates a story by replacing placeholder words such as <noun> by looking for a random word of that type. This approach uses multiple private ArrayLists, one for each type of word, to store each type of replacement. For example, one ArrayList stores different nouns. These nouns are initially read in from a file called noun.txt and stored in the ArrayList named nounList. Whenever the templated word <noun> is found in the story, a random noun from the nounList is used in place of <noun>. 
 
 You will now modify the GladLib.java file to handle two additional categories—verbs and fruits. Specifically, you should make the following adjustments to your program:
